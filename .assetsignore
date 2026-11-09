@@ -1,0 +1,10 @@
+scripts
+docs
+README.md
+deploy.bat
+wrangler.jsonc
+.assetsignore
+.gitignore
+.env.example
+.git
+node_modules

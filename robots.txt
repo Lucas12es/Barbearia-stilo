@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# O Sitemap é adicionado ao executar: node scripts/set-domain.mjs https://SEU-DOMINIO
