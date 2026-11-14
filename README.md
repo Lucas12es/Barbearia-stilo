@@ -48,7 +48,7 @@ Abra http://localhost:8000. Não há `npm install` nem build. (Sirva a partir da
 2. **Galeria:** 9 fotos (em `assets/img/galeria/`) vieram do Instagram oficial da Stilo (@barbeariastilo_), baixadas com autorização do responsável. Elas mostram clientes e barbeiros: confirme com a barbearia o uso de imagem. Para trocar/adicionar, edite `galOrder` no gerador ou os botões `.tile` em `index.html`.
 3. **Resolução das fotos dos barbeiros:** foram recortadas de um print (~130 px) e aparecem levemente suaves. Substitua por fotos originais em `assets/img/equipe/<nome>.webp` (360×360) para nitidez total.
 4. **Dados a confirmar com o cliente** (o site **não inventa**): lista oficial de serviços, valores, horário de atendimento, história detalhada, depoimentos (o "+8 anos de tradição" e o endereço com "sala 1" vieram da bio do Instagram). Hoje os textos remetem ao agendamento online/WhatsApp. O link do Facebook foi montado a partir de `@barbeariastilocvel` (`facebook.com/barbeariastilocvel`) e não pôde ser testado.
-5. **Páginas legais:** preencher `[razão social e CNPJ]` e `[e-mail de contato]` e **revisar com advogado**.
+5. **Páginas legais:** já preenchidas com Stilo Barbearia Ltda., CNPJ 33.948.281/0001-68 e e-mail stilobarbeariacvel@gmail.com (também no rodapé, no contato e no JSON-LD). Falta apenas a **revisão por advogado**.
 6. **Google Analytics 4 (opcional):** `assets/js/config.js` → `gaId: "G-XXXXXXXXXX"`. O GA só carrega após "Aceitar" no aviso de cookies (o aviso só aparece quando há `gaId`). Depois cadastre o site no Google Search Console e envie `/sitemap.xml`.
 7. **Google Business Profile:** garanta nome, endereço e telefone idênticos ao do site (maior ganho de SEO local).
 
